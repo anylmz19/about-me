@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>RECEP ANIL YILMAZ</title>
+  <link rel="icon" type="image/png" href="img/logo.png">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/tsparticles@3.1.0/tsparticles.bundle.min.js"></script>
+
+</head>
+<body>
+
+    <canvas id="canvasArkaPlan"></canvas>
+
+
+  <header class="banner">
+  <div class="banner-icerik">
+    <img src="img/logo.png" alt="Logo" class="banner-logo">
+    
+    <div class="banner-yazi">
+      <h1 id="bannerBaslik">Recep Anıl Yılmaz</h1>
+      <p id="bannerAlt">Yazılım Geliştirici | Tasarımcı | Problem Çözücü</p>
+    </div>
+
+    <div class="banner-buton">
+      <a href="index.html" class="home-btn">Ana Sayfa</a>
+    </div>
+  </div>
+</header>
+
+
+  <main class="ana">
+    <section class="sol-kolon">
+      <div class="resim-kutu">
+        <img src="img/ben.jpg" alt="Benim fotoğrafım" class="profil-resmi">
+      </div>
+      <div class="iletisim-karti">
+        <h3 style="text-align: left;">İletişim Bilgilerim</h3>
+        <p><i class="fas fa-envelope"></i> <a href="mailto:ranilyilmaz@gmail.com">ranilyilmaz@gmail.com</a></p>
+        <p><i class="fas fa-phone"></i> <a href="tel:+905551234567">+90 507 036 36 61</a></p>
+        </div>
+
+      <div class="cv-kutu">
+        <a href="cv.pdf" target="_blank">CV'mi Görüntüle</a>
+      </div>
+    </section>
+
+    <section class="sag-kolon" id="hakkimda">
+  <div class="hakkimda-header">
+    
+    <h2>Hakkımda</h2>
+    <div class="hakkimda-secenekler">
+      <button onclick="gosterMetin()">Metin Tarzı</button>
+      <button onclick="gosterModern()">Modern Kart</button>
+    </div>
+  </div>
+
+  <!-- Metin Görünüm -->
+  <div id="metinTarzi" class="hakkimda-alan">
+    <div class="hakkimda-kapsayici">
+    <p>
+    Merhaba, ben <strong>Recep Anıl Yılmaz</strong>. 2001 doğumluyum, Sinopluyum ve İstanbul’da yaşıyorum. Yazılıma lise yıllarımda ilgi duymaya başladım ve zamanla bu ilgim büyük bir tutkuya dönüştü. Bugün kendimi yazılıma tamamen adamış durumdayım ve her gün öğrenmeye, üretmeye devam ediyorum.
+    </p>
+
+    <p>
+    Çavuşbaşı ÇPAL’de Web Tasarımı eğitimi aldıktan sonra, İstinye Üniversitesi’nde Bilgisayar Programcılığı bölümünü tamamladım. Ardından Gelişim Üniversitesi’nde Yönetim Bilişim Sistemleri okudum. Eğitim hayatım boyunca <strong>TP-Link</strong>, <strong>Kuryenet</strong> ve <strong>BioFresh</strong> gibi şirketlerde görev aldım.
+    </p>
+
+    <p>
+    <strong>HTML, CSS, JavaScript, Python</strong> gibi teknolojilere ileri düzeyde hakimim. Ayrıca <strong>SQL, C/C++, Angular</strong> gibi alanlarda da yetkinliğim bulunuyor.
+    </p>
+
+    <p>
+    Fitness, kitap okuma, dizi-film izleme gibi hobilerim dışında; en büyük keyif aldığım şey, yeni yazılım projeleri üretmek ve sürekli kendimi bu alanda geliştirmek.
+    </p>
+    <br><br>
+    <p class="vurgulu-metin">
+    Yazılım geliştirmeyi sadece bir meslek olarak değil, yaşam biçimi olarak görüyorum. Her projede farklı teknolojiler öğrenmekten büyük keyif alıyorum. Bugüne kadar frontend ve backend tarafında birçok özgün proje geliştirdim. Her biri bana yeni beceriler kazandırdı ve yazılıma olan tutkum daha da büyüdü.
+    </p>
+    <p class="vurgulu-metin">
+    Amacım sadece kod yazmak değil; insanların hayatını kolaylaştıracak, yaratıcı ve faydalı yazılımlar üretmek. Yazılım benim için bir tutku, bir ifade biçimi.
+    </p>
+  </div>
+  </div>
+
+  <!-- Modern Kart Görünüm -->
+  <div id="modernTarzi" class="hakkimda-alan" style="display:none;">
+    <div class="hakkimda-kapsayici">
+      
+      <p><strong>Ben Recep Anıl Yılmaz</strong>, 2001 doğumlu, İstanbul'da yaşayan bir yazılım geliştiricisiyim. Yazılıma tutkuyla bağlıyım ve bu alana kendimi adamış durumdayım.</p>
+
+      <div class="hakkimda-grup">
+        <h3><i class="fas fa-graduation-cap"></i> Eğitim</h3>
+        <ul>
+          <li>Çavuşbaşı ÇPAL (Web Tasarım) – 2015-2019</li>
+          <li>İstinye Üniversitesi (Bilgisayar Programcılığı) – 2020-2022</li>
+          <li>İstanbul Gelişim Üniversitesi (YBS) – 2023-2025</li>
+        </ul>
+      </div>
+
+      <div class="hakkimda-grup">
+        <h3><i class="fas fa-briefcase"></i> Deneyim</h3>
+        <ul>
+          <li>TP-Link Türkiye – Staj (2019)</li>
+          <li>Kuryenet Kadıköy – Bilgisayar Sorumlusu (2020-2021)</li>
+          <li>BioFresh – IT Uzmanı (2023)</li>
+        </ul>
+      </div>
+
+      <div class="hakkimda-grup">
+        <h3><i class="fas fa-code"></i> Teknolojiler</h3>
+        <ul class="tech-skill">
+          <li>HTML <span class="stars">★★★★★</span></li>
+          <li>CSS <span class="stars">★★★★★</span></li>
+          <li>JavaScript <span class="stars">★★★★★</span></li>
+          <li>Python <span class="stars">★★★★★</span></li>
+          <li>SQL, C, C++, Angular <span class="stars">★★★★☆</span></li>
+        </ul>
+      </div>
+
+      <div class="hakkimda-grup">
+        <h3><i class="fas fa-language"></i> İngilizce</h3>
+        <p>Okuma: İyi – Konuşma: Orta</p>
+      </div>
+
+      <div class="hakkimda-grup">
+        <h3><i class="fas fa-heart"></i> Hobiler</h3>
+        <p>Fitness, kitap okuma, yazılım geliştirme, dizi/film izleme, yeni projeler üretme</p>
+      </div>
+
+      
+    </div>
+  </div>
+  
+</section>
+    
+  </main>
+  <br><br><br><br><br>
+  <!-- Projeler Bölümü -->
+      <div class="proje-baslik">
+        <h1>Projelerim</h1>
+        
+      </div>
+      <br><br>
+      <div class="proje-container" id="projeContainer">
+        <!-- Projeler buraya dinamik gelecek -->
+      </div>
+
+
+  <script src="style.js"></script>
+  <script src="background.js"></script>
+</body>
+
+</html>
