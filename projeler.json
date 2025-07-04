@@ -1,0 +1,30 @@
+[
+  {
+    "id": 1,
+    "isim": "Yazılım Projem",
+    "özet": "Kısa açıklama",
+    "aciklama": "Detaylı açıklama",
+    "resim": "assets/proje1.png"
+  },
+  {
+    "id": 2,
+    "isim": "Yemek Tarif Uygulaması",
+    "özet": "asd",
+    "aciklama": "Kullanıcıların yemek tarifleri ekleyip arayabildiği web uygulaması.",
+    "resim": "assets/yemek.png"
+  },
+  {
+    "id": 3,
+    "isim": "Yemek Tarif Uygulaması",
+    "özet": "asd",
+    "aciklama": "Kullanıcıların yemek tarifleri ekleyip arayabildiği web uygulaması.",
+    "resim": "assets/yemek.png"
+  },
+  {
+    "id": 4,
+    "isim": "Yemek Tarif Uygulaması",
+    "özet": "asd",
+    "aciklama": "Kullanıcıların yemek tarifleri ekleyip arayabildiği web uygulaması.",
+    "resim": "assets/yemek.png"
+  }
+]

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>RECEP ANIL YILMAZ</title>
+  <link rel="icon" type="image/png" href="img/logo.png">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="proje.css">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+</head>
+<body>
+
+
+  <canvas id="canvasArkaPlan"></canvas>
+
+ <header class="banner">
+  <div class="banner-icerik">
+    <img src="img/logo.png" alt="Logo" class="banner-logo">
+    
+    <div class="banner-yazi">
+      <h1 id="bannerBaslik">Recep Anıl Yılmaz</h1>
+      <p id="bannerAlt">Yazılım Geliştirici | Tasarımcı | Problem Çözücü</p>
+    </div>
+
+    <div class="banner-buton">
+      <a href="index.html" class="home-btn">Ana Sayfa</a>
+    </div>
+  </div>
+</header>
+
+
+
+  <main class="ana">
+    <div id="bilgiKartlariAlani"></div>
+
+    
+
+    <!-- HTML -->
+    <div class="galeri-wrapper">
+      <div class="galeri-buyuk">
+        <button id="solOk" class="ok">&#8592;</button>
+        <img id="buyukResim" src="" alt="Büyük Görsel">
+        <button id="sagOk" class="ok">&#8594;</button>
+      </div>
+      <div class="galeri-kucuk"></div>
+    </div>
+      <div id="videoKartAlani"></div>
+      <br>
+      <div class="proje-detay-box" id="projeBilgiAlani">
+      <!-- Bilgiler JS ile burada gösterilecek -->
+    </div>
+
+      
+
+    <div id="resimModal" class="modal">
+      <span class="modal-kapat" id="modalKapat">&times;</span>
+      <img class="modal-icerik" id="modalResim">
+    </div>
+
+
+  </main>
+  <script src="background.js"></script>
+  <script src="style.js"></script>
+  <script src="proje.js"></script>
+</body>
+</html>
