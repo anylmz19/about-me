@@ -169,7 +169,43 @@ const data = [
         "resim9": "img/anılbank9.png",
         "resim10": "img/anılbank10.png",
         "video": "video/anılbank.mp4"
-  }
+  },{
+  "id": 5,
+  "Proje-Adı": "MoodMatch – Ruh Haline Göre Film, Müzik, Dizi ve Oyun Öneri Platformu",
+  "özet": "MoodMatch; kullanıcıların ruh haline göre kendilerine uygun film, müzik, dizi ve oyun içeriklerini keşfetmesini sağlayan interaktif bir öneri sistemidir. Modern, responsive ve kullanıcı dostu tasarımı ile 4 ana kategoride öneriler sunar. Her sayfa kendi API’sinden verileri çeker, kullanıcı ruh haline göre filtreleme yapılır, rastgele öneriler veya AI destekli akıllı seçimler sunulur.",
+  "genel-amaçı": "Kullanıcının ruh haline göre eğlenceli içerikleri (film, oyun, müzik ve dizi) tek bir çatı altında sunmak ve kullanıcıya özel filtreleme, önerme ve yönlendirme işlemlerini otomatikleştirmektir. Ruh haline göre kategorize edilmiş içeriklerle kullanıcı deneyimini daha keyifli hale getirir.",
+  "Projenin-Amacı": "Ruh hali girişi ile çalışarak kullanıcılara uygun içerikler (mutluysan komedi, yalnızsan drama, enerjiksen aksiyon vs.) sunmak. Ayrıca seçilen ruh haline göre tür, platform ve yıl gibi filtreleri otomatik ayarlayarak önerileri sadeleştirmek. Kullanıcı isterse bu içerikleri detaylı olarak gezebilir veya ilgili kategoriye yönlendirilir.",
+  "Temel-Özellikler": "- Ruh hali seçimine göre içerik filtreleme (mutlu, üzgün, yalnız, enerjik, vs.)\n- Film, dizi, müzik ve oyun sayfaları\n- Her kategori için ayrı API ile veri çekme\n- Film ve dizilerde TMDB, müzikte Last.fm, oyunlarda RAWG API kullanımı\n- Rastgele öneri sistemleri (her sayfa yenilendiğinde öneriler değişir)\n- Yapay zeka (chatbot tarzı) öneri modülü\n- Responsive navbar ve dropdown menüler\n- Kategorilere özel filtreleme: yıl, tür, ruh hali, platform\n- Hover ile açılan menüler, ikonlu etkileşimli tasarım\n- Kullanıcı arayüzünde font-awesome ikonlar ve animasyonlu bölümler",
+  "Backend-Mimarisi": "Proje mostly frontend ağırlıklıdır fakat JavaScript üzerinden API istekleri ile backend verileri alınır. Her kategori için (movie.js, tv.js, music.js, game.js) ayrı JS dosyaları ile dinamik veri çekilir. Ayrıca AI arama modülü HuggingFace gibi servislerle chat tabanlı cevap oluşturmak için ayarlanmıştır. PHP ile proxy API gibi bağlantılar sağlanmıştır.",
+  "Veritabanı-Yapısı": "Veritabanı yerine doğrudan dış API’lerden veri çekilmektedir. Ruh haline göre filtreleme için sabit haritalama listeleri (`moodGenreMap`, `moodTagMap` vs.) kullanılır. AI öneri modülü, kullanıcıdan alınan 'ruh hali' ve 'kategori' bilgisine göre cevap üretir ve gerekirse yönlendirme yapar.",
+  "Kullanılan-Teknolojiler": [
+    "HTML5, CSS3",
+    "Vanilla JavaScript (DOM, Event, Fetch API)",
+    "Font Awesome (ikonlar)",
+    "Chat-based AI öneri (HuggingFace / LLaMa3)",
+    "External API: TMDB, RAWG, Last.fm",
+    "PHP (AI API entegrasyonu için)",
+    "Responsive Web Design",
+    "Dropdown navigation bar (Manychat stili)"
+  ],
+ "resim": "img/moodmatch1.png",
+"resim2": "img/moodmatch2.png",
+"resim3": "img/moodmatch3.png",
+"resim4": "img/moodmatch4.png",
+"resim5": "img/moodmatch5.png",
+"resim6": "img/moodmatch6.png",
+"resim7": "img/moodmatch7.png",
+"resim8": "img/moodmatch8.png",
+"resim9": "img/moodmatch9.png",
+"resim10": "img/moodmatch10.png",
+"resim11": "img/moodmatch11.png",
+"resim12": "img/moodmatch12.png",
+"resim13": "img/moodmatch13.png",
+"video": "video/moodmatch.mp4"
+
+}
+
+  
 ];
 
 // === PROJE KARTLARINI YÜKLE ===
