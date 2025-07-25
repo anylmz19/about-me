@@ -188,7 +188,7 @@ const data = [
     "Responsive Web Design",
     "Dropdown navigation bar (Manychat stili)"
   ],
- "resim": "img/moodmatch1.png",
+ "resim": "img/moodmatch.png",
 "resim2": "img/moodmatch2.png",
 "resim3": "img/moodmatch3.png",
 "resim4": "img/moodmatch4.png",
