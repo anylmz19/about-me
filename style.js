@@ -79,9 +79,58 @@ const data = [
   "video": "video/ChronoSphere.mp4"
 
   },
+  {
+  "id": 2,
+  "Proje-Adı": "WatchNest – Dizi & Film Takip Uygulaması",
+  "özet": "Kullanıcıların izledikleri dizileri ve filmleri takip edebildiği, izleme ilerlemesini kaydedebildiği ve kişisel listeler oluşturabildiği Flutter tabanlı platform.",
+  "genel-amaçı": "Dizi ve film severlerin izleme alışkanlıklarını düzenli bir şekilde yönetebileceği, izlediklerini işaretleyebileceği ve öneriler alabileceği çoklu platform (Android, iOS, Web) desteği sunan bir uygulama sağlamak.",
+  "Projenin-Amacı": "WatchNest, kullanıcıların dizilerini ve filmlerini tek bir yerde toplar. Kullanıcılar izleme listeleri oluşturabilir, bölümleri işaretleyebilir, izledikleri yüzdesini görebilir ve hangi içerikleri takip ettiklerini düzenleyebilir.\n\nUygulama **Flutter** ile geliştirilmiştir ve Android, iOS ve Web üzerinde çalışmaktadır. **Firebase Authentication** ile kullanıcı girişi yapılır, **Firestore** üzerinde her kullanıcıya özel dizi/film bilgileri saklanır. Profil fotoğrafı gibi içerikler **Cloudinary** entegrasyonu ile yönetilir.\n\nModern UI, responsive tasarım ve kullanıcıya özel dinamik öneriler ile WatchNest, izleme deneyimini kişisel hale getirir.",
+  "Temel-Özellikler": "- Flutter ile cross-platform geliştirme (Android, iOS, Web)\n- Kullanıcı giriş/kayıt sistemi (Firebase Auth)\n- Kullanıcı profili güncelleme (Cloudinary görsel desteği)\n- Dizi & film ekleme / çıkarma (mySeries, myMovies)\n- Bölüm işaretleme ve izleme yüzdesi hesaplama\n- İzleme durumu etiketleri (Devam Ediyor / Sona Erdi)\n- Günlük / haftalık / aylık öneriler\n- Responsive ve modern arayüz",
+  "Backend-Mimarisi": "- Backend: Firebase Firestore (NoSQL)\n- Kimlik Doğrulama: Firebase Authentication\n- Görsel Yönetimi: Cloudinary\n- Flutter ile REST API / Firestore query entegrasyonu\n- İzleme yüzdesi hesaplama sistemi",
+  "Veritabanı-Yapısı": "- users: Kullanıcı bilgileri (profil, görseller)\n- mySeries: Kullanıcının eklediği diziler\n- myMovies: Kullanıcının eklediği filmler\n- watched: İşaretlenen izlenen bölümler\n- favory: Kullanıcının favori içerikleri\n- editor_gunluk/haftalik/aylik: Öneriler",
+  "Kullanılan-Teknolojiler": "- Flutter (Android, iOS, Web)\n- Firebase Authentication\n- Firebase Firestore\n- Cloudinary (görsel yükleme)\n- Dart dili\n- Responsive tasarım ve Material 3",
+  "resim": "img/watch_1.png",
+  "resim2": "img/watch_2.png",
+  "resim3": "img/watch_3.png",
+  "resim4": "img/watch_4.png",
+  "resim5": "img/watch_5.png",
+  "resim6": "img/watch_6.png",
+  "resim7": "img/watch_7.png",
+  "resim8": "img/watch_8.png",
+  "resim9": "img/watch_9.png",
+  "resim10": "img/watch_10.png",
+  "resim11": "img/watch_11.png",
+  "resim12": "img/watch_12.png",
+  "resim13": "img/watch_13.png",
+  "resim14": "img/watch_14.png",
+  "resim15": "img/watch_15.png",
+  "resim16": "img/watch_16.png",
+  "resim17": "img/watch_17.png",
+  "resim18": "img/watch_18.png",
+  "resim19": "img/watch_19.png",
+  "resim20": "img/watch_20.png",
+  "resim21": "img/watch_21.png",
+  "resim22": "img/watch_22.png",
+  "resim23": "img/watch_23.png",
+  "resim24": "img/watch_24.png",
+  "resim25": "img/watch_25.png",
+  "resim26": "img/watch_26.png",
+  "resim27": "img/watch_27.png",
+  "resim28": "img/watch_28.png",
+  "resim29": "img/watch_29.png",
+  "resim30": "img/watch_30.png",
+  "resim31": "img/watch_31.png",
+  "resim32": "img/watch_32.png",
+  "resim33": "img/watch_33.png",
+  "resim34": "img/watch_34.png",
+  "resim35": "img/watch_35.png",
+  "resim36": "img/watch_36.png",
+  "video": "video/ChronoSphere.mp4"
+}
+
 
  {
-    "id": 2,
+    "id": 3,
     "Proje-Adı": "AnılCheck – Teknolojik Cihaz Karşılaştırma ve İnceleme Platformu",
     "özet": "Bu proje, kullanıcıların teknolojik cihazları karşılaştırmasına, yorum bırakmasına ve detaylı bilgi almasına olanak tanıyan interaktif bir web uygulamasıdır.",
     "genel-amaçı": "Kullanıcıların teknoloji ürünleri hakkında karşılaştırmalı bilgi almasını, yorum yapmasını, favori listesi oluşturmasını ve daha bilinçli tercihler yapmasını sağlamak.",
@@ -110,7 +159,7 @@ const data = [
   },
 
   {
-  "id": 3,
+  "id": 4,
   "Proje-Adı": "AnılMarket - E-Ticaret Sistemi",
   "özet": "AnılMarket, kullanıcıların giriş yaparak ürünleri inceleyebileceği, arama yapabileceği, sepete ürün ekleyip satın alabileceği, sipariş takibi yapabileceği ve ürünler hakkında yorum bırakabileceği çok yönlü bir e-ticaret platformudur. Günlük, haftalık ve aylık kampanyalarla birlikte kişiselleştirilmiş kullanıcı deneyimi sunar.",
   "genel-amaçı": "Kullanıcıların online olarak ürün arayabileceği, satın alma gerçekleştirebileceği, yorum yapabileceği, sepetini yönetebileceği ve sipariş takibini görsel olarak yapabileceği kapsamlı bir alışveriş sistemini hayata geçirmek.",
@@ -138,7 +187,7 @@ const data = [
 },
 
   {
-      "id": 4,
+      "id": 5,
       "Proje-Adı": "Anıl Bank – Online Bankacılık ve Kullanıcı Yönetim Sistemi",
       "özet": "Anıl Bank; kullanıcıların kayıt olabildiği, giriş yapabildiği, bilgilerinin tutulduğu, güncellenebildiği ve para transferi gerçekleştirebildiği tam kapsamlı bir bankacılık sistemidir.",
       "genel-amaçı": "Kullanıcılara dijital bir banka deneyimi sunmak ve işlemlerini çevrimiçi gerçekleştirebilecekleri, güvenli, kullanıcı dostu, işlevsel ve interaktif bir platform oluşturmaktır. Bu proje ile kullanıcılar hem bireysel bankacılık işlemlerini (para gönderme, bakiye görüntüleme, yatırım vadeleri) gerçekleştirebilir hem de sistemdeki bilgilerinin yönetimini sağlar. Aynı zamanda sistem yöneticileri (admin) tüm kullanıcıları görüntüleyip düzenleyebilir, silebilir ya da yeni kullanıcılar oluşturabilir. Bu yapı, hem frontend arayüz hem de backend API servisi olarak detaylı mimariyle desteklenmiştir.",
@@ -170,7 +219,7 @@ const data = [
         "resim10": "img/anılbank10.png",
         "video": "video/anılbank.mp4"
   },{
-  "id": 5,
+  "id": 6,
   "Proje-Adı": "MoodMatch – Ruh Haline Göre Film, Müzik, Dizi ve Oyun Öneri Platformu",
   "özet": "MoodMatch; kullanıcıların ruh haline göre kendilerine uygun film, müzik, dizi ve oyun içeriklerini keşfetmesini sağlayan interaktif bir öneri sistemidir. Modern, responsive ve kullanıcı dostu tasarımı ile 4 ana kategoride öneriler sunar. Her sayfa kendi API’sinden verileri çeker, kullanıcı ruh haline göre filtreleme yapılır, rastgele öneriler veya AI destekli akıllı seçimler sunulur.",
   "genel-amaçı": "Kullanıcının ruh haline göre eğlenceli içerikleri (film, oyun, müzik ve dizi) tek bir çatı altında sunmak ve kullanıcıya özel filtreleme, önerme ve yönlendirme işlemlerini otomatikleştirmektir. Ruh haline göre kategorize edilmiş içeriklerle kullanıcı deneyimini daha keyifli hale getirir.",
