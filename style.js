@@ -126,7 +126,7 @@ const data = [
   "resim35": "img/watch_35.png",
   "resim36": "img/watch_36.png",
   "video": "video/ChronoSphere.mp4"
-}
+},
 
 
  {
