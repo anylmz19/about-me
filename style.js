@@ -89,7 +89,7 @@ const data = [
   "Backend-Mimarisi": "- Backend: Firebase Firestore (NoSQL)\n- Kimlik Doğrulama: Firebase Authentication\n- Görsel Yönetimi: Cloudinary\n- Flutter ile REST API / Firestore query entegrasyonu\n- İzleme yüzdesi hesaplama sistemi",
   "Veritabanı-Yapısı": "- users: Kullanıcı bilgileri (profil, görseller)\n- mySeries: Kullanıcının eklediği diziler\n- myMovies: Kullanıcının eklediği filmler\n- watched: İşaretlenen izlenen bölümler\n- favory: Kullanıcının favori içerikleri\n- editor_gunluk/haftalik/aylik: Öneriler",
   "Kullanılan-Teknolojiler": "- Flutter (Android, iOS, Web)\n- Firebase Authentication\n- Firebase Firestore\n- Cloudinary (görsel yükleme)\n- Dart dili\n- Responsive tasarım ve Material 3",
-  "resim": "img/watch_0.png",
+  "resim": "img/watch.png",
   "resim1": "img/watch_1.png",
   "resim2": "img/watch_2.png",
   "resim3": "img/watch_3.png",
